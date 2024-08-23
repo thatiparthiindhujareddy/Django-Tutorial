@@ -1,0 +1,31 @@
+This lesson contains a basic Django project that demonstrates how to display "Hello, World!" on the screen using Django's views.py. The text is rendered in an <h1> HTML tag, providing a simple introduction to handling views and templates in Django.
+
+step by step procedure:-
+Set Up Your Django Project:
+Open your terminal (command prompt) and navigate to the directory where you want to create your Django project.
+Run the following command to create a new Django project:
+command
+django-admin startproject project_name 
+Navigate into your project directory
+Create a new Django app within the project:
+command
+python manage.py startapp app_name
+
+
+Create a View in views.py:
+Open myapp/views.py in your code editor.
+Define a function that returns an HTML response with "Hello, World!" in an <h1>
+
+Map the View to a URL
+Open myproject/urls.py in your code editor.
+Import the hello_world view from myapp.views.
+
+Run the Development Server
+Back in your terminal, start the Django development server:
+command
+python manage.py runserver
+Open your web browser and go to http://127.0.0.1:8000/.
+
+You should see "Hello, World!" displayed in large text on the screen.
+
+
